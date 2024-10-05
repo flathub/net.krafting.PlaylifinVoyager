@@ -17,12 +17,13 @@ modules:
     buildsystem: simple
     build-commands:
       - install -Dm755 PlaylifinVoyager.py /app/bin/PlaylifinVoyager.py
+      - cp -r utils/ /app/bin/utils/
       - install -Dm 0644 net.krafting.PlaylifinVoyager.desktop  /app/share/applications/net.krafting.PlaylifinVoyager.desktop
       - install -Dm 0644 net.krafting.PlaylifinVoyager.metainfo.xml  /app/share/metainfo/net.krafting.PlaylifinVoyager.metainfo.xml
       - install -Dm 0644 images/net.krafting.PlaylifinVoyager.png /app/share/icons/hicolor/256x256/apps/net.krafting.PlaylifinVoyager.png
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-voyager-gtk
-        tag: '1.2.0'
-        commit: dd7ca2f327dfca57e6f800a0b2d40df9b830829d
+        tag: '1.3.0'
+        commit: 8927b435d0c5c049910e9965cc4b0c5c6c8bf672
 
