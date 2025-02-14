@@ -20,7 +20,7 @@ modules:
       - cp -r utils/ /app/bin/utils/
       - install -Dm 0644 net.krafting.PlaylifinVoyager.desktop  /app/share/applications/net.krafting.PlaylifinVoyager.desktop
       - install -Dm 0644 net.krafting.PlaylifinVoyager.metainfo.xml  /app/share/metainfo/net.krafting.PlaylifinVoyager.metainfo.xml
-      - install -Dm 0644 images/net.krafting.PlaylifinVoyager.png /app/share/icons/hicolor/256x256/apps/net.krafting.PlaylifinVoyager.png
+      - install -Dm 0644 images/net.krafting.PlaylifinVoyager.svg /app/share/icons/hicolor/scalable/apps/net.krafting.PlaylifinVoyager.svg
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-voyager-gtk
