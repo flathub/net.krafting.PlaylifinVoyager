@@ -27,3 +27,4 @@ modules:
         tag: 1.4.1
         commit: cda67441d10a538a9f86f8f5513e6efe08d42ce6
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
+
