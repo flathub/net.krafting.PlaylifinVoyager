@@ -24,7 +24,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-voyager-gtk
-        tag: 1.4.2
-        commit: b5f4e6ac921aebade3d04463f2a28c15ef2ddffa
+        tag: 1.4.3
+        commit: 23ca61106a6babca0b0a8283f6763c4db9203982
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
 
