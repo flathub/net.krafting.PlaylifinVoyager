@@ -1,6 +1,6 @@
 app-id: net.krafting.PlaylifinVoyager
 runtime: org.gnome.Platform
-runtime-version: '48'
+runtime-version: '49'
 sdk: org.gnome.Sdk
 command: PlaylifinVoyager.py
 finish-args:
@@ -24,7 +24,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/Krafting/playlifin-voyager-gtk
-        tag: 1.4.3
-        commit: 23ca61106a6babca0b0a8283f6763c4db9203982
+        tag: 1.5.1
+        commit: 40f9e05202ad76a4657628a69ae10d8562066a23
         x-checker-data: {type: git, tag-pattern: '^([\d.]+)$'}
 
